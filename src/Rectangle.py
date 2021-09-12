@@ -2,7 +2,7 @@ from src.Figure import Figure
 
 
 class Rectangle(Figure):
-    name = 'Rectangle'
+    name = "Rectangle"
 
     def area(self) -> int:
         return self.a * self.b

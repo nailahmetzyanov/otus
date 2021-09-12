@@ -1,7 +1,7 @@
 
 
 class Figure:
-    name = 'Figure'
+    name = "Figure"
 
     def __init__(self, a, b=None, c=None, ):
         self.a: int = a

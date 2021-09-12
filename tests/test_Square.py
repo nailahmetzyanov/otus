@@ -26,7 +26,7 @@ def test_add_area():
     assert square1.add_area(circle1) == 32.27433388230814
 
     class NotFigura:
-        name = 'Not_figura'
+        name = "Not_figura"
 
     with pytest.raises(ValueError) as er:
         square1.add_area(NotFigura.name)

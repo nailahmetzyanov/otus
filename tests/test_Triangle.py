@@ -10,9 +10,9 @@ def test_create_class():
     assert triangle.b == 4
     assert triangle.c == 3
 
-    with pytest.raises(Exception) as ve:
+    with pytest.raises(Exception) as er:
         Triangle(2, 40, 100)
-    assert 'None: Triangle' in str(ve)
+    assert "None: Triangle" in str(er)
 
 
 def test_perimeter():

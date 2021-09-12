@@ -3,7 +3,7 @@ from src.Figure import Figure
 
 
 class Circle(Figure):
-    name = 'Circle'
+    name = "Circle"
 
     def area(self) -> float:
         return pi * self.a * self.a
