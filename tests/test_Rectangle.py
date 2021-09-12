@@ -8,7 +8,7 @@ def test_create_class():
     assert isinstance(rectangle, Rectangle)
     assert rectangle.a == 2
     assert rectangle.b == 4
-    assert Rectangle.name == "Rectangle"
+    assert Rectangle.name == 'Rectangle'
 
 
 def test_perimeter():

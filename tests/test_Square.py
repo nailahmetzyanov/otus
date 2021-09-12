@@ -7,7 +7,7 @@ def test_create_class():
     square = Square(2)
     assert isinstance(square, Square)
     assert square.a == 2
-    assert square.name == 'Square'
+    assert square.name == "Square"
 
 
 def test_perimeter():

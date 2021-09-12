@@ -4,7 +4,7 @@ from math import pi
 
 
 def test_atribut_class():
-    assert Circle.name == "Circle"
+    assert Circle.name == 'Circle'
 
 
 def test_perimeter():

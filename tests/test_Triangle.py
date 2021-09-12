@@ -12,7 +12,7 @@ def test_create_class():
 
     with pytest.raises(Exception) as ve:
         Triangle(2, 40, 100)
-    assert "None: Triangle" in str(ve)
+    assert 'None: Triangle' in str(ve)
 
 
 def test_perimeter():
