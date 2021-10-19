@@ -48,3 +48,4 @@ def write_users(data, write_filename):
     data = json.loads(data)
     with open(write_filename, 'w', encoding='utf-8') as file:
         json.dump(data, file, indent=4)
+
