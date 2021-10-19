@@ -32,4 +32,3 @@ def read_books(filename):
             except StopIteration:
                 break
         return books
-

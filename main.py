@@ -14,4 +14,3 @@ if __name__ == '__main__':
                 user.books.append(books_list.pop(0))
 
     users.write_users(users_list, users.result_json_file)
-
