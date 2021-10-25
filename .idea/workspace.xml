@@ -30,22 +30,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac187931-7411-444d-9194-aa6c2ca17932" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2_json/books.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_json/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_json/users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_json/src/Circle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_json/src/Figure.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_json/src/Rectangle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_json/src/Square.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_json/src/Triangle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_json/src/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_json/tests/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_json/tests/test_Circle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_json/tests/test_Rectangle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_json/tests/test_Square.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_json/tests/test_Triangle.py" beforeDir="false" />
-    </list>
+    <list default="true" id="ac187931-7411-444d-9194-aa6c2ca17932" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,28 +79,7 @@
       <recent name="C:\Users\Наиль\Desktop\PyCharmProjects\otus\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="base (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="otus" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_json" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_json/base.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest in test_1_dog.py">
     <configuration name="base" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="otus" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,107 +101,93 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="base" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_3_jsonplaceholder.test_api_five_typicode_all_albums" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="otus" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_json" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Наиль\Desktop\PyCharmProjects\otus\2_json\base.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_3_jsonplaceholder.test_api_five_typicode_all_albums&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="books" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_3_jsonplaceholder.test_api_one_typicode_all_users" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="otus" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_json" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_json/books.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_3_jsonplaceholder.test_api_one_typicode_all_users&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Наиль\AppData\Local\Programs\Python\Python38-32\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_json" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_json/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="users" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_3_jsonplaceholder.test_get_comments_id" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="otus" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_json" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_json/users.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_3_jsonplaceholder.test_get_comments_id&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_1_dog.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="otus" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_1_dog.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_2_openbrewerydb.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="otus" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_2_openbrewerydb.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.books" />
-        <item itemvalue="Python.users" />
-        <item itemvalue="Python.base (1)" />
-        <item itemvalue="Python.base" />
+        <item itemvalue="Python tests.pytest in test_1_dog.py" />
+        <item itemvalue="Python tests.pytest in test_2_openbrewerydb.py" />
+        <item itemvalue="Python tests.pytest for test_3_jsonplaceholder.test_get_comments_id" />
+        <item itemvalue="Python tests.pytest for test_3_jsonplaceholder.test_api_one_typicode_all_users" />
+        <item itemvalue="Python tests.pytest for test_3_jsonplaceholder.test_api_five_typicode_all_albums" />
       </list>
     </recent_temporary>
   </component>
@@ -277,6 +227,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1635122810892">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/-1920.-98.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1635122810892" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1634682743358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -291,25 +245,25 @@
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/-1920.-98.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1634682772850" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1631489127985" />
-    <state width="1016" height="344" key="GridCell.Tab.0.bottom" timestamp="1634682774739">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1635127635674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1016" height="344" key="GridCell.Tab.0.bottom/-1920.-98.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1634682774739" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/-1920.-98.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1635127635674" />
     <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1631489129079" />
-    <state width="1016" height="344" key="GridCell.Tab.0.center" timestamp="1634682774739">
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1635127635674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1016" height="344" key="GridCell.Tab.0.center/-1920.-98.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1634682774739" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center/-1920.-98.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1635127635674" />
     <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1631489129079" />
-    <state width="1016" height="344" key="GridCell.Tab.0.left" timestamp="1634682774739">
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1635127635674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1016" height="344" key="GridCell.Tab.0.left/-1920.-98.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1634682774739" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left/-1920.-98.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1635127635674" />
     <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1631489129079" />
-    <state width="1016" height="344" key="GridCell.Tab.0.right" timestamp="1634682774739">
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1635127635674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1016" height="344" key="GridCell.Tab.0.right/-1920.-98.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1634682774739" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/-1920.-98.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1635127635674" />
     <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631489129079" />
     <state width="1016" height="344" key="GridCell.Tab.1.bottom" timestamp="1634682774739">
       <screen x="0" y="0" width="1920" height="1040" />
