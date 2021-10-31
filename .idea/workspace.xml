@@ -31,20 +31,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac187931-7411-444d-9194-aa6c2ca17932" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2_json/books.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_json/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_json/users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_json/src/Circle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_json/src/Figure.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_json/src/Rectangle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_json/src/Square.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_json/src/Triangle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_json/src/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_json/tests/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_json/tests/test_Circle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_json/tests/test_Rectangle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_json/tests/test_Square.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_json/tests/test_Triangle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +52,7 @@
         <entry key="$PROJECT_DIR$" value="Homework1" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/2_json" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectId" id="1vi7gjeZHkhumQiX8VElgC9jTv8" />
