@@ -30,7 +30,24 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac187931-7411-444d-9194-aa6c2ca17932" name="Default Changelist" comment="add" />
+    <list default="true" id="ac187931-7411-444d-9194-aa6c2ca17932" name="Default Changelist" comment="add">
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/AdminCatalogProductsPage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/AuthPage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/BasePage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/CatalogPage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/HeaderPage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/MainPage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/ProductPage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/TestData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/UserRegisterPage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_admin_catalog_products_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_auth_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_catalog_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_main_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_product_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_user_registration_page.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
