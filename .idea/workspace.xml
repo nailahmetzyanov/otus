@@ -31,23 +31,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac187931-7411-444d-9194-aa6c2ca17932" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/page_objects/AdminCatalogProductsPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_objects/AuthPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_objects/BasePage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_objects/CatalogPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_objects/HeaderPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_objects/MainPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_objects/ProductPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_objects/TestData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_objects/UserRegisterPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_admin_catalog_products_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_auth_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_user_registration_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/AdminCatalogProductsPage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/AuthPage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/BasePage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/CatalogPage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/MainPage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/ProductPage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/TestData.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/UserRegisterPage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_admin_catalog_products_page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_auth_admin_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_auth_admin_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_auth_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_auth_admin_page.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_catalog_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_catalog_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_main_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_product_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_user_registration_page.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,8 +99,8 @@
       <recent name="C:\Users\Наиль\Desktop\PyCharmProjects\otus\2_json" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_auth_admin_page.py">
-    <configuration name="pytest for test_auth_admin_page.test_form_title_visibility" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_auth_page.test_form_title_visibility">
+    <configuration name="pytest for test_auth_page.test_form_title_visibility" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="otus" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -111,11 +112,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_auth_admin_page.test_form_title_visibility&quot;" />
+      <option name="_new_target" value="&quot;test_auth_page.test_form_title_visibility&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_main_page.test_slider_visibility" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_auth_page.test_login_input_visibility" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="otus" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,11 +128,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_main_page.test_slider_visibility&quot;" />
+      <option name="_new_target" value="&quot;test_auth_page.test_login_input_visibility&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_auth_admin_page.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_main_page.test_change_currency_to_eur" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="otus" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,11 +144,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_auth_admin_page.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_main_page.test_change_currency_to_eur&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_catalog_page.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_main_page.test_user_change_currency" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="otus" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,11 +160,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_catalog_page.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_main_page.test_user_change_currency&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_main_page.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_user_registration_page.test_user_registration" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="otus" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,17 +176,17 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_main_page.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_user_registration_page.test_user_registration&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_auth_admin_page.py" />
-        <item itemvalue="Python tests.pytest in test_main_page.py" />
-        <item itemvalue="Python tests.pytest for test_main_page.test_slider_visibility" />
-        <item itemvalue="Python tests.pytest for test_auth_admin_page.test_form_title_visibility" />
-        <item itemvalue="Python tests.pytest in test_catalog_page.py" />
+        <item itemvalue="Python tests.pytest for test_auth_page.test_form_title_visibility" />
+        <item itemvalue="Python tests.pytest for test_auth_page.test_login_input_visibility" />
+        <item itemvalue="Python tests.pytest for test_user_registration_page.test_user_registration" />
+        <item itemvalue="Python tests.pytest for test_main_page.test_user_change_currency" />
+        <item itemvalue="Python tests.pytest for test_main_page.test_change_currency_to_eur" />
       </list>
     </recent_temporary>
   </component>
@@ -240,28 +241,28 @@
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/-1920.-98.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1634682772850" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1631489127985" />
-    <state width="1899" height="271" key="GridCell.Tab.0.bottom" timestamp="1636581799614">
+    <state width="1899" height="271" key="GridCell.Tab.0.bottom" timestamp="1636587130218">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1899" height="271" key="GridCell.Tab.0.bottom/-1920.-98.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1636581799614" />
+    <state width="1899" height="271" key="GridCell.Tab.0.bottom/-1920.-98.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1636587130218" />
     <state width="1899" height="274" key="GridCell.Tab.0.bottom/-1920.-98.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1635653363806" />
     <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1631489129079" />
-    <state width="1899" height="271" key="GridCell.Tab.0.center" timestamp="1636581799614">
+    <state width="1899" height="271" key="GridCell.Tab.0.center" timestamp="1636587130217">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1899" height="271" key="GridCell.Tab.0.center/-1920.-98.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1636581799614" />
+    <state width="1899" height="271" key="GridCell.Tab.0.center/-1920.-98.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1636587130217" />
     <state width="1899" height="274" key="GridCell.Tab.0.center/-1920.-98.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1635653363806" />
     <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1631489129079" />
-    <state width="1899" height="271" key="GridCell.Tab.0.left" timestamp="1636581799614">
+    <state width="1899" height="271" key="GridCell.Tab.0.left" timestamp="1636587130217">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1899" height="271" key="GridCell.Tab.0.left/-1920.-98.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1636581799614" />
+    <state width="1899" height="271" key="GridCell.Tab.0.left/-1920.-98.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1636587130217" />
     <state width="1899" height="274" key="GridCell.Tab.0.left/-1920.-98.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1635653363805" />
     <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1631489129079" />
-    <state width="1899" height="271" key="GridCell.Tab.0.right" timestamp="1636581799614">
+    <state width="1899" height="271" key="GridCell.Tab.0.right" timestamp="1636587130218">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1899" height="271" key="GridCell.Tab.0.right/-1920.-98.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1636581799614" />
+    <state width="1899" height="271" key="GridCell.Tab.0.right/-1920.-98.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1636587130218" />
     <state width="1899" height="274" key="GridCell.Tab.0.right/-1920.-98.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1635653363806" />
     <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631489129079" />
     <state width="1016" height="344" key="GridCell.Tab.1.bottom" timestamp="1634682774739">
