@@ -1,47 +1,50 @@
-from page_objects.BasePage import BasePage
-from page_objects.TestData import ProductPageTestData
-from page_objects.ProductPage import ProductPageLocators
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
-# Тест на проверку видимости элемента "Все изображения товара в одном блоке" на странице товара
-def test_thumbnails_block_visibility(browser, prod_url):
-    product_page = BasePage(browser, prod_url)
-    product_page.go_to_site()
-    prod_thumbnails = product_page.find_element(ProductPageLocators.THUMBS_ELEM, 2)
-    assert ProductPageTestData.THUMBS_ELEM_CLASS == product_page.get_property(prod_thumbnails, 'className'),\
-        "Needs main thumbnails className to be equal to 'thumbnails'!"
+class Selectors:
+    THUMB_ELEM = (By.CSS_SELECTOR, ".thumbnails")
+    THUMB_QTY = (By.CSS_SELECTOR, ".thumbnail")
+    PROD_TITLE = (By.CSS_SELECTOR, "div.btn-group + h1")
+    QTY_INPUT = (By.CSS_SELECTOR, "input[name = \"quantity\"]")
+    CART_BTN = (By.CSS_SELECTOR, "#button-cart")
+
+
+# Тест на проверку видимости элемента "все изображения товара в одном блоке" на странице товара
+def test_thumbnail_visibility(browser, prod_url):
+    browser.get(prod_url)
+    element = WebDriverWait(browser, 1).until(EC.visibility_of_element_located((By.CSS_SELECTOR, ".thumbnails")))
+    assert browser.find_element(
+        *Selectors.THUMB_ELEM) == element, "Needs main thumbnail 'element' to be found on the page!"
 
 
 # Тест на проверку видимости 4х элементов "изображения товара" на странице товара
-def test_thumbnails_visibility(browser, prod_url):
-    product_page = BasePage(browser, prod_url)
-    product_page.go_to_site()
-    assert ProductPageTestData.THUMBS_QTY == product_page.get_quantity(
-        ProductPageLocators.THUMBS_QTY), "Quantity of elements should be equal to 4!"
+def test_thumbnails_qty_visibility(browser, prod_url):
+    browser.get(prod_url)
+    element = WebDriverWait(browser, 1).until(EC.visibility_of_all_elements_located((By.CSS_SELECTOR, ".thumbnail")))
+    assert len(element) == 4, "Needs 4 thumbnails 'element' to be found on the page!"
 
 
 # Тест на проверку видимости элемента "название товара" на странице товара
 def test_product_title_visibility(browser, prod_url):
-    product_page = BasePage(browser, prod_url)
-    product_page.go_to_site()
-    title_elem = product_page.find_element(ProductPageLocators.PROD_TITLE, 2)
-    assert ProductPageTestData.PROD_TITLE_VALUE == product_page.get_property(title_elem, 'textContent'),\
-        "Needs h1 header should be equal to 'MacBook Air'!"
+    browser.get(prod_url)
+    element = WebDriverWait(browser, 1).until(EC.visibility_of_element_located((By.CSS_SELECTOR, "div.btn-group + h1")))
+    assert browser.find_element(
+        *Selectors.PROD_TITLE) == element, "Needs product title 'element' to be found on the page!"
 
 
 # Тест на проверку видимости элемента "поле для ввода количества товаров" на странице товара
-def test_input_of_quantity_visibility(browser, prod_url):
-    product_page = BasePage(browser, prod_url)
-    product_page.go_to_site()
-    input_elem = product_page.find_element(ProductPageLocators.QTY_INPUT, 2)
-    assert ProductPageTestData.QTY_INPUT_NAME == product_page.get_property(input_elem, 'name'),\
-        "Needs name value should be equal to 'quantity'!"
+def test_quantity_input_visibility(browser, prod_url):
+    browser.get(prod_url)
+    element = WebDriverWait(browser, 1).until(
+        EC.visibility_of_element_located((By.CSS_SELECTOR, "input[name = \"quantity\"]")))
+    assert browser.find_element(
+        *Selectors.QTY_INPUT) == element, "Needs quantity of goods input 'element' to be found on the page!"
 
 
-# Тест на проверку видимости элемента кнопки "положить в корзину" на странице товара
+# Тест на проверку видимости элемента "кнопка положить в корзину" на странице товара
 def test_cart_btn_visibility(browser, prod_url):
-    product_page = BasePage(browser, prod_url)
-    product_page.go_to_site()
-    btn_elem = product_page.find_element(ProductPageLocators.CART_BTN, 2)
-    assert ProductPageTestData.CART_BTN_ID == product_page.get_property(btn_elem, 'id'),\
-        "Needs button id should be equal to 'button-cart'!"
+    browser.get(prod_url)
+    element = WebDriverWait(browser, 1).until(EC.visibility_of_element_located((By.CSS_SELECTOR, "#button-cart")))
+    assert browser.find_element(*Selectors.CART_BTN) == element, "Needs cart button 'element' to be found on the page!"

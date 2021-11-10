@@ -1,47 +1,49 @@
-from page_objects.BasePage import BasePage
-from page_objects.TestData import CatalogPageTestData
-from page_objects.CatalogPage import CatalogPageLocators
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+
+class Selectors:
+    ASIDE_MENU = (By.CSS_SELECTOR, "#column-left")
+    BANNER = (By.CSS_SELECTOR, "#banner0")
+    LIST_VIEW_BTN = (By.CSS_SELECTOR, "#list-view")
+    GRID_VIEW_BTN = (By.CSS_SELECTOR, "#grid-view")
+    PRODUCTS = (By.CSS_SELECTOR, ".product-layout")
 
 
 # Тест на проверку видимости элемента "боковое меню" на странице каталога
 def test_aside_menu_visibility(browser, cat_url):
-    catalog_page = BasePage(browser, cat_url)
-    catalog_page.go_to_site()
-    aside_menu_elem = catalog_page.find_element(CatalogPageLocators.ASIDE_MENU, 2)
-    assert CatalogPageTestData.ASIDE_MENU_ID == catalog_page.get_property(aside_menu_elem, 'id'), \
-        "Needs aside menu id should be equal to 'column-left'!"
+    browser.get(cat_url)
+    element = WebDriverWait(browser, 1).until(EC.visibility_of_element_located((By.CSS_SELECTOR, "#column-left")))
+    assert browser.find_element(*Selectors.ASIDE_MENU) == element, "Needs aside menu 'element' to be found on the page!"
 
 
 # Тест на проверку видимости элемента "баннер" на странице каталога
 def test_banner_visibility(browser, cat_url):
-    catalog_page = BasePage(browser, cat_url)
-    catalog_page.go_to_site()
-    banner_elem = catalog_page.find_element(CatalogPageLocators.BANNER, 2)
-    assert CatalogPageTestData.BANNER_ID == catalog_page.get_property(banner_elem, 'id'), \
-        "Needs banner id should be equal to 'banner0'!"
+    browser.get(cat_url)
+    element = WebDriverWait(browser, 1).until(EC.visibility_of_element_located((By.CSS_SELECTOR, "#banner0")))
+    assert browser.find_element(*Selectors.BANNER) == element, "Needs banner 'element' to be found on the page!"
 
 
 # Тест на проверку видимости элемента "кнопка вывода - list" на странице каталога
 def test_list_btn_visibility(browser, cat_url):
-    catalog_page = BasePage(browser, cat_url)
-    catalog_page.go_to_site()
-    list_btn = catalog_page.find_element(CatalogPageLocators.LIST_VIEW_BTN, 2)
-    assert CatalogPageTestData.LIST_VIEW_BTN_ID == catalog_page.get_property(list_btn, 'id'), \
-        "Needs list view button id should be equal to 'list-view'!"
+    browser.get(cat_url)
+    element = WebDriverWait(browser, 1).until(EC.visibility_of_element_located((By.CSS_SELECTOR, "#list-view")))
+    assert browser.find_element(
+        *Selectors.LIST_VIEW_BTN) == element, "Needs list button 'element' to be found on the page!"
 
 
 # Тест на проверку видимости элемента "кнопка вывода - grid" на странице каталога
 def test_grid_btn_visibility(browser, cat_url):
-    catalog_page = BasePage(browser, cat_url)
-    catalog_page.go_to_site()
-    grid_btn = catalog_page.find_element(CatalogPageLocators.GRID_VIEW_BTN, 2)
-    assert CatalogPageTestData.GRID_VIEW_BTN_ID == catalog_page.get_property(grid_btn, 'id'), \
-        "Needs list view button id should be equal to 'grid-view'!"
+    browser.get(cat_url)
+    element = WebDriverWait(browser, 1).until(EC.visibility_of_element_located((By.CSS_SELECTOR, "#grid-view")))
+    assert browser.find_element(
+        *Selectors.GRID_VIEW_BTN) == element, "Needs grid button 'element' to be found on the page!"
 
 
 # Тест на проверку видимости 5 продуктовых карточек на странице каталога с товарами
 def test_products_visibility(browser, cat_url):
-    catalog_page = BasePage(browser, cat_url)
-    catalog_page.go_to_site()
-    assert CatalogPageTestData.ALL_PRODUCTS_QTY == catalog_page.get_quantity(
-        CatalogPageLocators.PRODUCTS), "Quantity of elements should be equal to 5!"
+    browser.get(cat_url)
+    elements = WebDriverWait(browser, 1).until(
+        EC.visibility_of_all_elements_located((By.CSS_SELECTOR, ".product-layout")))
+    assert len(elements) == 5, "Needs 5 product cards 'element' to be found one the page!"
