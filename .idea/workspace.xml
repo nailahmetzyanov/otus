@@ -25,31 +25,12 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/homewok1" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/allure" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac187931-7411-444d-9194-aa6c2ca17932" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/page_objects/AdminCatalogProductsPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page_objects/AuthPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page_objects/BasePage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page_objects/CatalogPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page_objects/HeaderPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page_objects/MainPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page_objects/ProductPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page_objects/TestData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page_objects/UserRegisterPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_admin_catalog_products_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_auth_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_user_registration_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_auth_admin_page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_catalog_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_catalog_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_main_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_product_page.py" afterDir="false" />
-    </list>
+    <list default="true" id="ac187931-7411-444d-9194-aa6c2ca17932" name="Default Changelist" comment="add" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,6 +180,14 @@
       <option name="presentableId" value="Default" />
       <updated>1627033169019</updated>
     </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1636587596036</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636587596036</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,7 +201,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/homewok1" />
+                        <option value="origin/allure" />
                       </list>
                     </value>
                   </entry>
@@ -224,6 +213,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="WindowStateProjectService">
     <state x="721" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1636579415565">
@@ -289,5 +282,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="856" y="187" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1631481713720" />
+    <state x="552" y="236" key="Vcs.Push.Dialog.v2" timestamp="1636587596961">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="552" y="236" key="Vcs.Push.Dialog.v2/-1920.-98.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1636587596961" />
   </component>
 </project>
